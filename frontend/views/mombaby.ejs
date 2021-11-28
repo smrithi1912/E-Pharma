@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedEasy</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/flexslider.css" type="text/css">
+    <link href="css/styles.css?v=1.6" rel="stylesheet">
+    <link href="css/queries.css?v=1.6" rel="stylesheet">
+    <link href="css/jquery.fancybox.css" rel="stylesheet">
+  <link href="style2.css" rel="stylesheet">
+
+
+  <style>
+
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+  }
+
+  /* Create two equal columns that sits next to each other */
+  .column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+  }
+
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+  }
+
+  img {
+    float: center;
+    width:  260px;
+    height: 260px;
+    object-fit: cover;
+}
+
+  .card{
+    padding: 30px;
+    margin-left: 30px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+  }
+
+  </style>
+</head>
+
+<body>
+  <div class="page-container">
+    <nav class="nav">
+      <div class="nav__border"></div>
+      <a href="#" class="nav__link">
+        <div class="nav__icon-container">
+          <i class="material-icons"><h2>storefront</h2></i>
+        </div>
+        <span class="nav__label"><b><h2>MedEasy</h2></b></span>
+      </a>
+      <br>
+      <br>
+      <a href="medicines.html" class="nav__link">
+        <div class="nav__icon-container">
+          <i class="material-icons">medication</i>
+        </div>
+        <span class="nav__label">Medicines</span>
+      </a>
+      <a href="mombaby.html" class="nav__link">
+        <div class="nav__icon-container">
+          <i class="material-icons">dashboard</i>
+        </div>
+        <span class="nav__label">Mom & Baby care</span>
+      </a>
+      <a href="nutrition.html" class="nav__link">
+        <div class="nav__icon-container">
+          <i class="material-icons">healing</i>
+        </div>
+        <span class="nav__label">Nutrition Drinks</span>
+      </a>
+      <a href="store.html" class="nav__link">
+        <div class="nav__icon-container">
+          <i class="material-icons">store</i>
+        </div>
+        <span class="nav__label">Stores Nearby</span>
+      </a>
+      <a href="landing.html" class="nav__link">
+        <div class="nav__icon-container">
+          <i class="material-icons">power_settings_new</i>
+        </div>
+        <span class="nav__label">Log Out</span>
+      </a>
+    </nav>
+   <!-- =========================================== -->
+<!-- <section>
+  <div>
+    <h2>
+      Medicines
+    </h2>
+    <p>
+      People can view the details of the medicine that are available in this online shop without signing-in to the account. Customer has to sign up and then sign in to this website for buying the medicine from this online shop.
+      Medicines can be exchanged, if the medicines are bought from this shop are intact. Customer can buy more than one products at a time.
+  
+    </p>
+  </div>
+</section>
+
+ -->
+
+<section>
+  
+  <h1 style="text-align: center; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; border-radius: 3%; text-align: center; background-color:teal; padding: 30px; margin: 10px; color: white;">
+    Mom & Baby Care
+  </h1>
+  <p style="border-radius: 10%; text-align: center; padding: 10px; font-style: italic; font-size:16px;">
+    People can view the details of the medicine that are available in this online shop without signing-in to the account. Customer has to sign up and then sign in to this website for buying the medicine from this online shop.
+    Medicines can be exchanged, if the medicines are bought from this shop are intact. Customer can buy more than one products at a time.
+
+  </p>
+  <div class="row">
+  <div class="card bg-info">
+    <img class="card-img-top" src="data:image/jpeg;base64,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" alt="Scam 1992">
+    <div class="card-body">
+
+      <p class="card-text">Tedibar Bathing Bar 75gm</p>
+      <p class="card-text">Price - 200rs</p>
+      <a href="#" class="btn btn-warning">Buy Now</a>
+
+    </div>
+  </div>
+  <div class="card bg-info">
+    <img class="card-img-top" src="https://themomsco.cdn.imgeng.in/media/catalog/product/cache/60e2578043e4249ac941a3429efc9ef8/p/r/primary_best_seller_combo_new_updated.jpg" alt="Scam 1992">
+    <div class="card-body">
+
+      <p class="card-text">Cetaphil Baby Daily Lotion- 400ml </p>
+      <p class="card-text">Price - 500rs</p>
+      <a href="#" class="btn btn-warning">Buy Now</a>
+    </div>
+  </div>
+  <div class="card bg-info">
+    <img class="card-img-top" src="https://themomsco.cdn.imgeng.in/media/catalog/product/cache/60e2578043e4249ac941a3429efc9ef8/p/a/pack-of-6-with-ingredints_waterwipes.jpg" alt="Scam 1992">
+    <div class="card-body">
+
+      <p class="card-text">Cetaphil Baby Shampoo - 200ml</p>
+      <p class="card-text">Price - 400rs</p>
+      <!-- <p class="card-text">Bottle of 60</p> -->
+      <a href="#" class="btn btn-warning">Buy Now</a>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="card bg-info">
+    <img class="card-img-top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQMqvjINuprksjJrSLszQa60BxXONAXt7twBKMsn5Nfph84QkwDssRgTj2PZ1Xq3M3EGA&usqp=CAU" alt="Scam 1992">
+    <div class="card-body">
+
+      <p class="card-text">Kofol Gargle Throat Relief Syrup</p>
+      <!-- <p class="card-text">Bottle of 100ml</p> -->
+      <p class="card-text">Price - 430rs</p>
+      <a href="#" class="btn btn-warning">Buy Now</a>
+    </div>
+  </div>
+  <div class="card bg-info">
+    <img class="card-img-top" src="https://www.johnsonsbaby.com/sites/jbaby_us_3/files/product-images/johnsons-touchably-soft-newborn-gift-set-front_0.jpg" alt="Scam 1992">
+    <div class="card-body">
+
+      <p class="card-text">Depura 60k Nano Drops Sugar Free</p>
+      <!-- <p class="card-text">Bottle of 50 drops </p> -->
+      <p class="card-text">Price - 1200rs</p>
+      <a href="#" class="btn btn-warning">Buy Now</a>
+    </div>
+  </div>
+  <div class="card bg-info">
+    <img class="card-img-top" src="https://www.johnsonsbaby.com/sites/jbaby_us_3/files/product-images/johnsons-touchably-soft-newborn-gift-set-front_0.jpg" alt="Scam 1992">
+    <div class="card-body">
+
+      <p class="card-text">Becozym C Forte- Strip Of 15 Tablets</p>
+    
+      <p class="card-text">Price - 100rs</p>
+      <a href="#" class="btn btn-warning">Buy Now</a>
+    </div>
+  </div>
+</div>
+</section>
+   
+      
+
+
+  </div>
+
+
+  <!-- ============================================================== -->
+  <script>
+    // Navigation
+    {
+      const collapsedClass = "nav--collapsed";
+      const lsKey = "navCollapsed";
+      const nav = document.querySelector(".nav");
+      const navBorder = nav.querySelector(".nav__border");
+      if (localStorage.getItem(lsKey) === "true") {
+        nav.classList.add(collapsedClass);
+      }
+      navBorder.addEventListener("click", () => {
+        nav.classList.toggle(collapsedClass);
+        localStorage.setItem(lsKey, nav.classList.contains(collapsedClass));
+      });
+    }
+  </script>
+</body>
+
+</html>
