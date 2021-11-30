@@ -21,12 +21,16 @@ app.get('/login', (req, res) => {
 app.get('/signup', (req, res) => {
     res.render("../auth/signup");
 })
+
+app.get('/signup', (req, res) => {
+    res.render("../auth/signup");
+})
  
 app.get('/medicines', (req, res) => {
     res.render("medicines");
 })
 
-app.get('/mom&baby', (req, res) => {
+app.get('/mombaby', (req, res) => {
     res.render("mombaby");
 })
 
