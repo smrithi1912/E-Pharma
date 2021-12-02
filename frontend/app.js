@@ -38,6 +38,14 @@ app.get('/nutrition', (req, res) => {
     res.render("nutrition");
 })
 
+app.get('/admin', (req, res) => {
+    res.render("admin");
+})
+
+app.get('/manufacturer', (req, res) => {
+    res.render("manufacturer");
+})
+
 
 // Port Number
 const PORT = process.env.PORT ||5000;
